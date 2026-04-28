@@ -1,6 +1,11 @@
 .header {
     border-bottom: 2px solid #E5C5B5;
-    margin-bottom: 51px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #FFFFFF;
+    z-index: 100;
 }
 
 .header__wrapper {
