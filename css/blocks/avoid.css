@@ -1,10 +1,16 @@
 .avoid {
-    padding: 10px 20px;
+    padding: 20px 20px;
     display: flex;
     align-items: center;
     gap: 10px;
     background-color: #E5C5B5;
-    width: 508px;
+    width: 454px;
+    border-radius: 10px;
+    margin-left: 94px;
+}
+
+.avoid--mini {
+    width: 331px;
 }
 
 .avoid__text {
