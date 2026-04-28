@@ -147,19 +147,95 @@
                 </div>
             </div>
         </section>
-               <section class="shedule">
+        <section class="shedule">
             <div class="container">
                 <h2 class="shedule__title">Расписание тренировок</h2>
                 <span class="shedule__note">Выбери подходящее время</span>
-                <div class="shedule__wrapper">
-                    <span class="shedule__day">ПН</span>
-                    <div class="shedule-lessons">
-                        <span class="shedule-lessons__time">10:00</span>
-                        <span class="shedule-lessons__text">Pilates Basics</span>
-                        <span class="shedule-lessons__time">13:00</span>
-                        <span class="shedule-lessons__text">Strength & Flow</span>
-                        <span class="shedule-lessons__time">16:00</span>
-                        <span class="shedule-lessons__text">Pilates Basics</span>
+                <div class="shedule-main">
+                    <div class="shedule__wrapper">
+                        <span class="shedule__day">ПН</span>
+                        <div class="shedule-lessons">
+                            <div class="shedule-inner">
+                                <span class="shedule-inner__time">10:00</span>
+                                <span class="shedule-inner__text">Pilates Basics</span>
+                            </div>
+                            <div class="shedule-inner">
+                                <span class="shedule-inner__time">13:00</span>
+                                <span class="shedule-inner__text">Strength & Flow</span>
+                            </div>
+                            <div class="shedule-inner shedule-inner--noborder">
+                                <span class="shedule-inner__time">16:00</span>
+                                <span class="shedule-inner__text">Pilates Basics</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shedule__wrapper">
+                        <span class="shedule__day">ВТ</span>
+                        <div class="shedule-lessons">
+                            <div class="shedule-inner">
+                                <span class="shedule-inner__time">16:00</span>
+                                <span class="shedule-inner__text">Advanced Mat</span>
+                            </div>
+                            <div class="shedule-inner">
+                                <span class="shedule-inner__time">19:00</span>
+                                <span class="shedule-inner__text">Strength & Flow</span>
+                            </div>
+                            <div class="shedule-inner shedule-inner--noborder">
+                                <span class="shedule-inner__time">21:00</span>
+                                <span class="shedule-inner__text">Pilates Basics</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shedule__wrapper">
+                        <span class="shedule__day">СР</span>
+                        <div class="shedule-lessons">
+                            <div class="shedule-inner">
+                                <span class="shedule-inner__time">10:00</span>
+                                <span class="shedule-inner__text">Advanced Mat</span>
+                            </div>
+                            <div class="shedule-inner">
+                                <span class="shedule-inner__time">13:00</span>
+                                <span class="shedule-inner__text">Strength & Flow</span>
+                            </div>
+                            <div class="shedule-inner shedule-inner--noborder">
+                                <span class="shedule-inner__time">16:00</span>
+                                <span class="shedule-inner__text">Advanced Mat</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shedule__wrapper">
+                        <span class="shedule__day">ЧТ</span>
+                        <div class="shedule-lessons">
+                            <div class="shedule-inner">
+                                <span class="shedule-inner__time">16:00</span>
+                                <span class="shedule-inner__text">Pilates Basics</span>
+                            </div>
+                            <div class="shedule-inner">
+                                <span class="shedule-inner__time">19:00</span>
+                                <span class="shedule-inner__text">Strength & Flow</span>
+                            </div>
+                            <div class="shedule-inner shedule-inner--noborder">
+                                <span class="shedule-inner__time">21:00</span>
+                                <span class="shedule-inner__text">Strength & Flow</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shedule__wrapper">
+                        <span class="shedule__day">ПТ</span>
+                        <div class="shedule-lessons">
+                            <div class="shedule-inner">
+                                <span class="shedule-inner__time">12:00</span>
+                                <span class="shedule-inner__text">Pilates Basics</span>
+                            </div>
+                            <div class="shedule-inner">
+                                <span class="shedule-inner__time">15:00</span>
+                                <span class="shedule-inner__text">Strength & Flow</span>
+                            </div>
+                            <div class="shedule-inner shedule-inner--noborder">
+                                <span class="shedule-inner__time">19:00</span>
+                                <span class="shedule-inner__text">Pilates Basics</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -207,7 +283,8 @@
                     </svg>
                     <p class="avoid__text"><b>Избегать:</b> жирное, жареное, газированное</p>
                 </div>
-                <h3 class="recomendations__note recomendations__note--after">Еда после тренировки (в течение 60 мин)</h3>
+                <h3 class="recomendations__note recomendations__note--after">Еда после тренировки (в течение 60 мин)
+                </h3>
                 <div class="recomendations__wrapper">
                     <div class="recomendations-card">
                         <picture>
@@ -260,11 +337,13 @@
                         </picture>
                         <div class="whypick-card__main">
                             <h3 class="whypick-card__title">Тренировки для любого уровня</h3>
-                            <span class="whypick-card__text">У каждого упражнения есть <br>упрощённая и <br>усложнённая версия. <br>Вы сами решаете, <br>как тренироваться сегодня</span>
+                            <span class="whypick-card__text">У каждого упражнения есть <br>упрощённая и <br>усложнённая
+                                версия. <br>Вы сами решаете, <br>как тренироваться сегодня</span>
                         </div>
                         <div class="whypick-card__main">
                             <h3 class="whypick-card__title">Профессиональные тренеры</h3>
-                            <span class="whypick-card__text">Каждый тренер имеет <br>минимум 500 часов <br>личной практики <br>и сертификат <br>международного образца</span>
+                            <span class="whypick-card__text">Каждый тренер имеет <br>минимум 500 часов <br>личной
+                                практики <br>и сертификат <br>международного образца</span>
                         </div>
                     </div>
                 </div>

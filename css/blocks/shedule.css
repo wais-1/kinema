@@ -1,7 +1,67 @@
 .shedule {
     padding: 143px 0 0;
+    font-family: "Nunito", "Arial", sans-serif;
+    color: #3E3A39;
 }
 
 .shedule__note {
-    
+    color: #8C837A;
+    margin-bottom: 72px;
+    display: block;
+    text-align: center;
+}
+
+.shedule-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 65px;
+}
+
+.shedule__wrapper {
+    display: flex;
+    background-color: #F2EFE9;
+    border-radius: 150px;
+    max-width: 876px;
+    align-items: center;
+}
+
+.shedule__day {
+    background-color: #B8C6B0;
+    padding: 70px 66px;
+    border-radius: 100%;
+    font-size: 50px;
+    color: #FFFFFF;
+}
+
+.shedule-lessons {
+    display: flex;
+    flex-direction: column;
+    padding-left: 91px;
+    padding-right: 218px;
+}
+
+.shedule-inner {
+    display: flex;
+    gap: 38px;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed #B8C6B0;
+    margin-bottom: 10px;
+}
+
+.shedule-inner--noborder {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+.shedule-inner__time {
+    font-size: 32px;
+}
+
+.shedule-inner__text {
+    font-size: 24px;
+    font-weight: 800;
 }
