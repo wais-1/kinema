@@ -21,4 +21,14 @@
     padding: 18px 22px;
 }
 
-.video-card__title {}
+.video-card__title {
+    font-size: 30px;
+    margin: 0 0 10px;
+    font-family: "Raleway", "Arial", sans-serif;
+}
+
+.video-card__title {
+    font-size: 18px;
+    margin-bottom: 27px;
+    display: block;
+}
