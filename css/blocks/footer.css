@@ -1,0 +1,29 @@
+.footer {
+    font-family: "Nunito", "Arial", sans-serif;
+    color: #3E3A39;
+    font-size: 16px;
+    padding: 36px 0;
+    border-top: 2px solid #E5C5B5;
+}
+
+.footer__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 38px;
+}
+
+.footer-contacts {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.footer-location {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
