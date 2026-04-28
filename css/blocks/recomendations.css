@@ -19,10 +19,15 @@
     margin: 0 0 47px;
 }
 
+.recomendations__note--after {
+    margin-top: 62px;
+}
+
 .recomendations__wrapper {
     display: flex;
     justify-content: center;
     gap: 78px;
+    margin-bottom: 33px;
 }
 
 .recomendations-card {
