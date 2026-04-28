@@ -1,0 +1,18 @@
+<svg>
+    <symbol id="icon-login" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M11.98 20V19H18.385C18.5384 19 18.6794 18.936 18.808 18.808C18.9367 18.68 19.0007 18.5387 19 18.384V5.616C19 5.462 18.936 5.32067 18.808 5.192C18.68 5.06333 18.5387 4.99933 18.384 5H11.981V4H18.385C18.845 4 19.229 4.15433 19.537 4.463C19.845 4.77167 19.9994 5.156 20 5.616V18.385C20 18.845 19.8457 19.2293 19.537 19.538C19.2284 19.8467 18.8444 20.0007 18.385 20H11.98ZM11.27 15.539L10.567 14.819L12.887 12.5H4.01904V11.5H12.887L10.567 9.18L11.269 8.462L14.808 12L11.27 15.539Z" fill="black"/>
+    </symbol>
+    <symbol id="line-right-top" viewBox="0 0 265 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M264.333 0.5L26.3306 0.500001L0.330694 23.4259" stroke="black" stroke-dasharray="2 2"/>
+    </symbol>
+    <symbol id="line-left-bottom" viewBox="0 0 186 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0 0.5L164.5 0.500008L185.5 32" stroke="black" stroke-dasharray="2 2"/>
+    </symbol>
+    <symbol id="lone-left-top" viewBox="0 0 260 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0 0.5L238.002 0.500001L259.002 32.0001" stroke="black" stroke-dasharray="2 2"/>
+    </symbol>
+    <symbol id="line-right-bottom" viewBox="0 0 214 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M213.331 0.500031L26.3306 0.500008L0.330692 23.4259" stroke="black" stroke-dasharray="2 2"/>
+    </symbol>
+
+</svg>

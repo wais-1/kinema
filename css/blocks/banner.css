@@ -1,0 +1,19 @@
+.banner {
+    position: relative;
+}
+
+.banner__title {
+    text-align: center;
+    font-family: "Raleway", "Arial", sans-serif;
+    color: #3E3A39;
+    font-size: 160px;
+    letter-spacing: 0.23em;
+    margin: 0;
+}
+
+.banner__img {
+    position: absolute;
+    top: 112px;
+    left: 50%;
+    transform: translateX(-50%);
+}

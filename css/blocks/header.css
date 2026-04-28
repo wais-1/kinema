@@ -1,0 +1,17 @@
+.header {
+    border-bottom: 2px solid #E5C5B5;
+    margin-bottom: 51px;
+}
+
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 11px 64px;
+    align-items: center;
+}
+
+.header-login__link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
