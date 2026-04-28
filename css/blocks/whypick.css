@@ -1,15 +1,43 @@
 .whypick {
     font-family: "Nunito", "Arial", sans-serif;
-    padding: 152px 0;
+    padding: 0;
 }
 .whypick__title {
     font-family: "Raleway", "Arial", sans-serif;
     font-size: 30px;
     color: #3E3A39;
-    margin: 0 0 62px;
+    margin: 0 0 72px;
 }
 .whypick__wrapper{
     display: flex;
     justify-content: center;
-    gap: 78px;
+    gap: 56px;
+}
+.whypick-card {
+    padding: 25px;
+    background-color: #F2EFE9;
+    border-radius: 10px;
+    width: 343px;
+    max-height: 345px;
+    margin: 0;
+    position: relative;
+}
+.whypick-card__title {
+    font-size: 28px;
+    font-family: "Raleway", "Arial", sans-serif;
+    color: #3E3A39;
+    margin: 0 0 65px;
+}
+
+.whypick-card__text {
+    font-size: 20px;
+    color: #3E3A39;
+    font-family: "Nunito", "Arial", sans-serif;
+
+}
+
+.whypick-card-yzor__img {
+    position: absolute;
+    top: 0;
+    left: 0;
 }
