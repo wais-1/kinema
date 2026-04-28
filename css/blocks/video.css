@@ -1,13 +1,19 @@
 .video {
     padding-top: 137px;
+    font-family: "Nunito", "Arial", sans-serif;
 }
 
 .video__note {
-    font-family: "Nunito", "Arial", sans-serif;
     color: #8C837A;
     margin-bottom: 72px;
     display: block;
     text-align: center;
+}
+
+.video__wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 78px;
 }
 
 .video-card {
@@ -27,8 +33,9 @@
     font-family: "Raleway", "Arial", sans-serif;
 }
 
-.video-card__title {
+.video-card__text {
     font-size: 18px;
     margin-bottom: 27px;
     display: block;
+    font-weight: 300;
 }
