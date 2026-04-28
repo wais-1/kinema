@@ -1,0 +1,14 @@
+.avoid {
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #E5C5B5;
+    width: 508px;
+}
+
+.avoid__text {
+    margin: 0;
+    font-size: 22px;
+    color: #3E3A39;
+}

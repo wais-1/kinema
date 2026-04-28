@@ -1,0 +1,48 @@
+.recomendations {
+    font-family: "Nunito", "Arial", sans-serif;
+    padding: 152px 0;
+}
+
+.recomendations__title {
+    font-family: "Raleway", "Arial", sans-serif;
+    font-size: 30px;
+    color: #3E3A39;
+    margin: 0 0 62px;
+}
+
+.recomendations__note {
+    color: #8C837A;
+    display: block;
+    text-align: center;
+    font-weight: 300;
+    font-size: 22px;
+    margin: 0 0 47px;
+}
+
+.recomendations__wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 78px;
+}
+
+.recomendations-card {
+    background-color: #F2EFE9;
+    border-radius: 10px;
+}
+
+.recomendations-card__main {
+    padding: 18px 23px;
+}
+
+.recomendations-card__title {
+    margin: 0 0 10px;
+    font-size: 30px;
+    font-family: "Raleway", "Arial", sans-serif;
+    color: #3E3A39;
+}
+
+.recomendations-card__text {
+    font-size: 18px;
+    color: #3E3A39;
+
+}
