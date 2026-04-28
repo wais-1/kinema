@@ -1,0 +1,15 @@
+.whypick {
+    font-family: "Nunito", "Arial", sans-serif;
+    padding: 152px 0;
+}
+.whypick__title {
+    font-family: "Raleway", "Arial", sans-serif;
+    font-size: 30px;
+    color: #3E3A39;
+    margin: 0 0 62px;
+}
+.whypick__wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 78px;
+}
