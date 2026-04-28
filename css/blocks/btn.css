@@ -20,4 +20,6 @@
 
 .btn--video {
     position: unset;
+    margin: 0;
+    margin-left: auto;
 }
