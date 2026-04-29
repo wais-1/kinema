@@ -1,0 +1,17 @@
+.account-main {
+    padding: 136px 64px 0;
+    font-family: "Nunito", "Arial", sans-serif;
+    color: #3E3A39;
+}
+
+.account-main__wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 72px;
+}
+
+.account-main__acc {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}

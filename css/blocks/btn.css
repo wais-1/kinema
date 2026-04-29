@@ -30,3 +30,11 @@
     margin: 0;
     margin-left: auto;
 }
+
+.btn--food {
+    margin: 0;
+    max-width: 170px;
+    display: flex;
+    align-items: center;
+    padding: 10px 19px;
+}

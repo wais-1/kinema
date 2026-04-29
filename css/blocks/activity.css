@@ -1,0 +1,62 @@
+.activity {
+    background-color: #F2EFE9;
+    border-radius: 20px;
+    padding: 28px 33px;
+    max-width: 429px;
+    font-family: "Nunito", "Arial", sans-serif;
+}
+
+.activity-name {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+
+.activity-name__title {
+    font-size: 22px;
+    font-family: "Raleway", "Arial", sans-serif;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.activity-time {
+    background-color: #E5C5B5;
+    padding: 8px 25px;
+    color: #FFFFFF;
+    display: flex;
+    gap: 75px;
+    max-width: 357px;
+    margin: 0 auto 26px;
+    border-radius: 10px;
+    align-items: center;
+}
+.is-active {
+    background-color: #B8C6B0;
+    padding: 5px 18px;
+    border-radius: 5px;
+}
+
+.middle {
+    position: relative;
+}
+
+.middle::before {
+    content: "";
+    height: 19px;
+    width: 1px;
+    position: absolute;
+    background-color: #E8E8E8;
+    left: -33px;
+}
+
+.middle::after {
+    content: "";
+    height: 19px;
+    width: 1px;
+    position: absolute;
+    background-color: #E8E8E8;
+    right: -33px;
+}
