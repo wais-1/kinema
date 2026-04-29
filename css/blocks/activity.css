@@ -1,9 +1,16 @@
+.activities {
+    padding: 0 64px;
+}
+
 .activity {
     background-color: #F2EFE9;
     border-radius: 20px;
     padding: 28px 33px;
     max-width: 429px;
     font-family: "Nunito", "Arial", sans-serif;
+    position: relative;
+    height: 447px;
+    box-sizing: border-box;
 }
 
 .activity-name {
@@ -27,7 +34,7 @@
     padding: 8px 25px;
     color: #FFFFFF;
     display: flex;
-    gap: 75px;
+    gap: 65px;
     max-width: 357px;
     margin: 0 auto 26px;
     border-radius: 10px;
@@ -59,4 +66,65 @@
     position: absolute;
     background-color: #E8E8E8;
     right: -33px;
+}
+
+.activity__title {
+    font-size: 16px;
+    margin: 0;
+    font-weight: 400;
+}
+
+.activity-days {
+    display: flex;
+    gap: 25px;
+    position: absolute;
+    bottom: 31px;
+    left: 37px;
+}
+
+.activity-hours {
+    display: flex;
+    gap: 25px;
+    flex-direction: column-reverse;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 50px;
+    right: 17px;
+}
+
+.activity-lines {
+    display: flex;
+    flex-direction: column;
+    gap: 43px;
+    position: absolute;
+    bottom: 60px;
+    left: 38px;
+}
+
+.activity-decor {
+    width: 31px;
+    height: 96px;
+    background-color: #E5C5B5;
+    position: absolute;
+    border-radius: 10px 10px 0 0;
+    bottom: 60px;
+}
+
+.decor-1 {
+    left: 45px;
+}
+
+.decor-2 {
+    left: 129px;
+    height: 61px;
+}
+
+.decor-3 {
+    left: 171px;
+    height: 110px;
+}
+
+.decor-4 {
+    height: 121px;
+    left: 265px;
 }
