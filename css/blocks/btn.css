@@ -9,6 +9,11 @@
     margin: 0 auto;
     display: block;
     max-width: 112px;
+    transition: transform 0.5s ease;
+}
+
+.btn:hover {
+    transform: scale(1.1);
 }
 
 .btn--card {
