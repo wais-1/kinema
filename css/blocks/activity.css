@@ -72,20 +72,22 @@
 
 .activity-days {
     display: flex;
-    gap: 25px;
+    gap: 28px;
     position: absolute;
     bottom: 31px;
     left: 37px;
+    font-size: 14px;
 }
 
 .activity-hours {
     display: flex;
-    gap: 25px;
+    gap: 27px;
     flex-direction: column-reverse;
     text-transform: uppercase;
     position: absolute;
-    bottom: 50px;
-    right: 17px;
+    bottom: 55px;
+    right: 12px;
+    font-size: 14px;
 }
 
 .activity-lines {
@@ -107,7 +109,7 @@
 }
 
 .decor-1 {
-    left: 45px;
+    left: 38px;
 }
 
 .decor-2 {

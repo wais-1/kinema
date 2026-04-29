@@ -29,7 +29,6 @@
     position: absolute;
     top: 352px;
     left: 290px;
-
 }
 
 .banner__top-left {
@@ -74,3 +73,12 @@
     top: 436px;
     right: 150px;
 }
+
+/* @keyframes slide-out {
+    0% {
+        clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
+    }
+    100% {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+} */
