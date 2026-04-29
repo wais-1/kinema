@@ -51,3 +51,9 @@
     color: #3E3A39;
 
 }
+.registration__btn:hover {
+    transform: scale(1.1);
+}
+.registration__btn{
+    transition: transform 0.5s ease;
+}

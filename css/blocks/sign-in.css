@@ -36,12 +36,14 @@
     font-size: 16px;
     font-family: "Nunito", "Arial", sans-serif;
     cursor: pointer;
+    transition: transform 0.5s ease;
 }
 .sign-in-noacc_text{
     font-family: "Nunito", "Arial", sans-serif;
 }
 .sign-in-noacc_link{
     color: #C9A87C;
+    transition: text-shadow 0.3s ease;
 }
 .sign-in-phone__text{
     font-family: "Nunito", "Arial", sans-serif;
@@ -81,4 +83,10 @@
 }
 .sign-in-btn__link{
     color: white;
+}
+.sign-in__btn:hover {
+    transform: scale(1.1);
+}
+.sign-in-noacc_link:hover{
+    text-shadow: 0 0 0.5px currentColor, 0 0 0.5px currentColor;
 }

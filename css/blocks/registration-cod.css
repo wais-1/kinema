@@ -30,6 +30,7 @@
     font-size: 16px;
     font-family: "Nunito", "Arial", sans-serif;
     cursor: pointer;
+    transition: transform 0.5s ease;
 }
 
 .registration-cod-phone__text{
@@ -66,6 +67,8 @@
 
 .custom-input {
     position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
 }
 
 .registration-cod__send {
@@ -80,6 +83,9 @@
     top: 50%;
     transform: translateY(-50%);
     right: 24px;
+    transition: transform 0.5s ease;
+    overflow: hidden;
+    transform-origin: center;
 }
 .registration-cod-div__btn{
     padding-left: 0;
@@ -88,4 +94,10 @@
 }
 .registration-cod-btn__link{
     color: white;
+}
+.registration-cod__btn:hover{
+    transform: scale(1.1);
+}
+.registration-cod__send:hover{
+    transform: translateY(-50%) scale(1.1);
 }
