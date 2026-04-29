@@ -1,31 +1,25 @@
-.sign-in{
+.registration{
     padding-top: 147px;
     display: flex;
     justify-content: center;
 }
-.sign-in_wrapper{
+.registration_wrapper{
     background-color: #F2EFE9;
     width: 589px;
     height: 537px;
     border-radius: 20px;
 }
-.sign-in__title{
+.registration__title{
     font-size: 24px;
     padding-top: 75px;
     margin: 0; 
     text-transform: unset;
 }
-.sign-in__form{
+.registration__form{
     padding: 50px 77px 32px 76px;
 }
-.sign-in-noacc__div{
-    padding-bottom: 30px;
-    display: flex;
-    justify-content: center;
-    gap: 23px;
-    font-size: 15px;
-}
-.sign-in__btn{
+
+.registration__btn{
     width: 200px;
     height: 42px;
     padding: 0 20px 0 20px;
@@ -37,26 +31,21 @@
     font-family: "Nunito", "Arial", sans-serif;
     cursor: pointer;
 }
-.sign-in-noacc_text{
-    font-family: "Nunito", "Arial", sans-serif;
-}
-.sign-in-noacc_link{
-    color: #C9A87C;
-}
-.sign-in-phone__text{
+
+.registration-pass__text{
     font-family: "Nunito", "Arial", sans-serif;
     font-size: 14px;
     padding-bottom: 7px;
     display: inline-block;
 }
-.sign-in-password__text{
+.registration-pass-again__text{
     font-family: "Nunito", "Arial", sans-serif;
     font-size: 14px;
     display: inline-block;
     padding-top: 26px;
     padding-bottom: 7px;
 }
-.sign-in-phone__input{
+.registration-pass__input{
     width: 92%;
     height: 57px;
     border-radius: 10px;
@@ -65,7 +54,7 @@
     background-color: #F2EFE9;
     padding-left: 29px;
 }
-.sign-in-password__input{
+.registration-pass-again__input{
     width: 92%;
     height: 57px;
     border-radius: 10px;
@@ -74,11 +63,11 @@
     background-color: #F2EFE9;
     padding-left: 29px;
 }
-.sign-in-div__btn{
+.registration-div__btn{
     padding-left: 0;
     display: flex;
     justify-content: center;
 }
-.sign-in-btn__link{
+.registration-btn__link{
     color: white;
 }
