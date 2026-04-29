@@ -40,5 +40,8 @@
     <symbol id="icon-progress" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M1 1H23M5 1V6C5 9 10 9.235 10 12C10 14.765 5 15 5 18V23M19 1V6C19 9 14 9.235 14 12C14 14.765 19 15 19 18V23M1 23H23M10 4.5H14V6C14 7 12 8 12 8C12 8 10 7 10 6V4.5ZM8 21C8 19 12 17 12 17C12 17 16 19 16 21V23H8V21Z" stroke="#3E3A39" stroke-width="2"/>
     </symbol>
+    <symbol id="icon-line-activity" viewBox="0 0 300 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <line y1="0.5" x2="300" y2="0.5" stroke="#3E3A39" stroke-dasharray="2 2"/>
+    </symbol>
 
 </svg>
