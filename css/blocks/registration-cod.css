@@ -1,25 +1,25 @@
-.registration{
+.registration-cod{
     padding-top: 147px;
     display: flex;
     justify-content: center;
 }
-.registration_wrapper{
+.registration-cod_wrapper{
     background-color: #F2EFE9;
     width: 589px;
     height: 537px;
     border-radius: 20px;
 }
-.registration__title{
+.registration-cod__title{
     font-size: 24px;
     padding-top: 75px;
     margin: 0; 
     text-transform: unset;
 }
-.registration__form{
+.registration-cod__form{
     padding: 50px 77px 32px 76px;
 }
 
-.registration__btn{
+.registration-cod__btn{
     width: 90px;
     height: 42px;
     padding: 0 20px 0 20px;
@@ -32,7 +32,7 @@
     cursor: pointer;
 }
 
-.registration-phone__text{
+.registration-cod-phone__text{
     font-family: "Nunito", "Arial", sans-serif;
     font-size: 14px;
     padding-bottom: 7px;
@@ -45,7 +45,7 @@
     padding-top: 26px;
     padding-bottom: 7px;
 }
-.registration-phone__input{
+.registration-cod-phone__input{
     width: 92%;
     height: 57px;
     border-radius: 10px;
@@ -63,11 +63,11 @@
     background-color: #F2EFE9;
     padding-left: 29px;
 }
-.registration-div__btn{
+.registration-cod-div__btn{
     padding-left: 0;
     display: flex;
     justify-content: center;
 }
-.registration-btn__link{
+.registration-cod-btn__link{
     color: white;
 }
