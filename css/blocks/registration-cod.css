@@ -1,0 +1,73 @@
+.registration{
+    padding-top: 147px;
+    display: flex;
+    justify-content: center;
+}
+.registration_wrapper{
+    background-color: #F2EFE9;
+    width: 589px;
+    height: 537px;
+    border-radius: 20px;
+}
+.registration__title{
+    font-size: 24px;
+    padding-top: 75px;
+    margin: 0; 
+    text-transform: unset;
+}
+.registration__form{
+    padding: 50px 77px 32px 76px;
+}
+
+.registration__btn{
+    width: 90px;
+    height: 42px;
+    padding: 0 20px 0 20px;
+    border-radius: 10px;
+    border: 0;
+    color: white;
+    background-color: #B8C6B0;
+    font-size: 16px;
+    font-family: "Nunito", "Arial", sans-serif;
+    cursor: pointer;
+}
+
+.registration-phone__text{
+    font-family: "Nunito", "Arial", sans-serif;
+    font-size: 14px;
+    padding-bottom: 7px;
+    display: inline-block;
+}
+.registration-cod__text{
+    font-family: "Nunito", "Arial", sans-serif;
+    font-size: 14px;
+    display: inline-block;
+    padding-top: 26px;
+    padding-bottom: 7px;
+}
+.registration-phone__input{
+    width: 92%;
+    height: 57px;
+    border-radius: 10px;
+    color: #AAA0A0;
+    border: 2px solid #E5C5B5;
+    background-color: #F2EFE9;
+    padding-left: 29px;
+}
+.registration-cod__input{
+    width: 92%;
+    height: 57px;
+    border-radius: 10px;
+    color: #AAA0A0;
+    border: 2px solid #E5C5B5;
+    background-color: #F2EFE9;
+    padding-left: 29px;
+}
+.registration-div__btn{
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+}
+.registration-btn__link{
+    color: white;
+}

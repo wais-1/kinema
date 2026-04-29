@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__wrapper">
+                <picture>
+                    <img src="images/header-logo.png" srcset="images/header-logo@2x.png 2x" width="151" height="56"
+                        alt="логотип компании">
+                </picture>
+                <nav class="header-nav">
+                    <ul class="nav-list">
+                        <li class="nav-list__item">
+                            <a href="#video" class="nav-list__link">Видео</a>
+                        </li>
+                        <li class="nav-list__item">
+                            <a href="#programms" class="nav-list__link">Список программ</a>
+                        </li>
+                        <li class="nav-list__item">
+                            <a href="#shedule" class="nav-list__link">План</a>
+                        </li>
+                    </ul>
+                </nav>
+                <a href="#" class="header-login__link">
+                    Вход
+                    <svg class="header__login-icon" width="24" height="24" aria-hidden="true">
+                        <use xlink:href="images/sprite.svg#icon-login"></use>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </header>
+    <section class="registration">
+            <div class="container">
+                <div class="registration_wrapper">
+                    <h2 class="registration__title">Регистрация</h2>
+                    <form action="" class="registration__form">
+                        <label for="registration-phone__input" class="registration-phone__text">Телефон</label>
+                        <br>
+                        <input class="registration-phone__input" type="text" placeholder="+7 (XXX) XXX XX XX">
+                        <br>
+                        <label for="registration-cod__input" class="registration-cod__text">Код из SMS</label>
+                        <br>
+                        <input class="registration-cod__input" type="password" placeholder="Введите код из SMS">
+                    </form>
+                    <br>
+                    <div class="registration-div__btn">
+                        <button class="registration__btn"><a href="#" class="registration-btn__link">Далее</a></button>
+                    </div>
+                </div>
+            </div>
+    </section>
+</body>
+</html>
