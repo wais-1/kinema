@@ -2,3 +2,11 @@
     display: flex;
     gap: 58px;
 }
+
+.nav-list__link {
+    transition: text-shadow 0.3s ease;
+}
+
+.nav-list__link:hover {
+    text-shadow: 0 0 0.5px currentColor, 0 0 0.5px currentColor;
+}
