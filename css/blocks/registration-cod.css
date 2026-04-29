@@ -63,6 +63,24 @@
     background-color: #F2EFE9;
     padding-left: 29px;
 }
+
+.custom-input {
+    position: relative;
+}
+
+.registration-cod__send {
+    padding: 5px 10px;
+    border: none;
+    background-color: #B8C6B0;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: "Nunito", "Arial", sans-serif;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 24px;
+}
 .registration-cod-div__btn{
     padding-left: 0;
     display: flex;

@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
+
 <body>
     <header class="header">
         <div class="container">
@@ -25,6 +27,9 @@
                         <li class="nav-list__item">
                             <a href="#shedule" class="nav-list__link">План</a>
                         </li>
+                        <li class="nav-list__item">
+                            <a href="main.html" class="nav-list__link">Главная</a>
+                        </li>
                     </ul>
                 </nav>
                 <a href="#" class="header-login__link">
@@ -37,24 +42,25 @@
         </div>
     </header>
     <section class="registration-cod">
-            <div class="container">
-                <div class="registration-cod_wrapper">
-                    <h2 class="registration-cod__title">Регистрация</h2>
-                    <form action="" class="registration-cod__form">
-                        <label for="registration-cod-phone__input" class="registration-cod-phone__text">Телефон</label>
-                        <br>
-                        <input class="registration-cod-phone__input" type="text" placeholder="+7 (XXX) XXX XX XX">
-                        <br>
-                        <label for="registration-cod__input" class="registration-cod__text">Код из SMS</label>
-                        <br>
-                        <input class="registration-cod__input" type="text" placeholder="Введите код из SMS">
-                    </form>
-                    <br>
-                    <div class="registration-cod-div__btn">
-                        <button class="registration-cod__btn"><a href="#" class="registration-cod-btn__link">Далее</a></button>
+        <div class="container">
+            <div class="registration-cod_wrapper">
+                <h2 class="registration-cod__title">Регистрация</h2>
+                <form action="" class="registration-cod__form">
+                    <label for="registration-cod-phone__input" class="registration-cod-phone__text">Телефон</label>
+                    <div class="custom-input">
+                        <input class="registration-cod-phone__input" id="registration-cod-phone__input" type="text" placeholder="+7 (XXX) XXX XX XX">
+                        <button class="registration-cod__send" type="button">Отправить код</button>
                     </div>
+                    <label for="registration-cod__input" class="registration-cod__text">Код из SMS</label>
+                    <input class="registration-cod__input" id="registration-cod__input" type="text" placeholder="Введите код из SMS">
+                </form>
+                <div class="registration-cod-div__btn">
+                    <button class="registration-cod__btn"><a href="registration.html"
+                            class="registration-cod-btn__link">Далее</a></button>
                 </div>
             </div>
+        </div>
     </section>
 </body>
+
 </html>
