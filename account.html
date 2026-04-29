@@ -27,6 +27,9 @@
                         <li class="nav-list__item">
                             <a href="#shedule" class="nav-list__link">План</a>
                         </li>
+                        <li class="nav-list__item">
+                            <a href="main.html" class="nav-list__link">Главная</a>
+                        </li>
                     </ul>
                 </nav>
                 <a href="#" class="header-login__link">
@@ -55,67 +58,80 @@
         </section>
         <section class="activities">
             <div class="container">
-                <div class="activity">
-                    <div class="activity-name">
-                        <h3 class="activity-name__title">Активность</h2>
-                            <svg class="header__login-icon" width="24" height="24" aria-hidden="true">
-                                <use xlink:href="images/sprite.svg#icon-activity"></use>
+                <div class="activities__wrapper">
+                    <div class="activity">
+                        <div class="activity-name">
+                            <h3 class="activity-name__title">Активность</h2>
+                                <svg class="header__login-icon" width="24" height="24" aria-hidden="true">
+                                    <use xlink:href="images/sprite.svg#icon-activity"></use>
+                                </svg>
+                        </div>
+                        <div class="activity-time">
+                            <span class="activity-time__text is-active">Неделя</span>
+                            <span class="activity-time__text middle">Месяц</span>
+                            <span class="activity-time__text">Год</span>
+                        </div>
+                        <h3 class="activity__title">Текущая неделя</h3>
+                        <div class="activity-days">
+                            <span class="activity-days__name">ПН</span>
+                            <span class="activity-days__name">ВТ</span>
+                            <span class="activity-days__name">СР</span>
+                            <span class="activity-days__name">ЧТ</span>
+                            <span class="activity-days__name">ПТ</span>
+                            <span class="activity-days__name">СБ</span>
+                            <span class="activity-days__name">ВС</span>
+                        </div>
+                        <div class="activity-hours">
+                            <span class="activity-hours__num">30 мин</span>
+                            <span class="activity-hours__num">1 час</span>
+                            <span class="activity-hours__num">1,5 часа</span>
+                            <span class="activity-hours__num">2 часа</span>
+                        </div>
+                        <div class="activity-lines">
+                            <svg class="activity-lines__icon" width="300" height="1" aria-hidden="true">
+                                <use xlink:href="images/sprite.svg#icon-line-activity"></use>
                             </svg>
-                    </div>
-                    <div class="activity-time">
-                        <span class="activity-time__text is-active">Неделя</span>
-                        <span class="activity-time__text middle">Месяц</span>
-                        <span class="activity-time__text">Год</span>
-                    </div>
-                    <h3 class="activity__title">Текущая неделя</h3>
-                    <div class="activity-days">
-                        <span class="activity-days__name">ПН</span>
-                        <span class="activity-days__name">ВТ</span>
-                        <span class="activity-days__name">СР</span>
-                        <span class="activity-days__name">ЧТ</span>
-                        <span class="activity-days__name">ПТ</span>
-                        <span class="activity-days__name">СБ</span>
-                        <span class="activity-days__name">ВС</span>
-                    </div>
-                    <div class="activity-hours">
-                        <span class="activity-hours__num">30 мин</span>
-                        <span class="activity-hours__num">1 час</span>
-                        <span class="activity-hours__num">1,5 часа</span>
-                        <span class="activity-hours__num">2 часа</span>
-                    </div>
-                    <div class="activity-lines">
-                        <svg class="activity-lines__icon" width="300" height="1" aria-hidden="true">
-                            <use xlink:href="images/sprite.svg#icon-line-activity"></use>
-                        </svg>
-                        <svg class="activity-lines__icon" width="300" height="1" aria-hidden="true">
-                            <use xlink:href="images/sprite.svg#icon-line-activity"></use>
-                        </svg>
-                        <svg class="activity-lines__icon" width="300" height="1" aria-hidden="true">
-                            <use xlink:href="images/sprite.svg#icon-line-activity"></use>
-                        </svg>
-                        <svg class="activity-lines__icon" width="300" height="1" aria-hidden="true">
-                            <use xlink:href="images/sprite.svg#icon-line-activity"></use>
-                        </svg>
-                    </div>
-                    <div class="activity-decor decor-1"></div>
-                    <div class="activity-decor decor-2"></div>
-                    <div class="activity-decor decor-3"></div>
-                    <div class="activity-decor decor-4"></div>
-                </div>
-                <div class="goal-and-progress">
-                    <div class="goals">
-                        <div class="goals-name">
-                            <h3 class="goals-name__title">ваши цели</h3>
-                            <svg width="24" height="24" aria-hidden="true">
-                                <use xlink:href="images/sprite.svg#icon-goal"></use>
+                            <svg class="activity-lines__icon" width="300" height="1" aria-hidden="true">
+                                <use xlink:href="images/sprite.svg#icon-line-activity"></use>
+                            </svg>
+                            <svg class="activity-lines__icon" width="300" height="1" aria-hidden="true">
+                                <use xlink:href="images/sprite.svg#icon-line-activity"></use>
+                            </svg>
+                            <svg class="activity-lines__icon" width="300" height="1" aria-hidden="true">
+                                <use xlink:href="images/sprite.svg#icon-line-activity"></use>
                             </svg>
                         </div>
-                        <ul class="goals-list">
-                            <li class="goals-list__item">Питание: Высокобелковая диета</li>
-                            <li class="goals-list__item">Цель: Похудение</li>
-                            <li class="goals-list__item">Вес: 66кг</li>
-                            <li class="goals-list__item">Калории: 1800</li>
-                        </ul>
+                        <div class="activity-decor decor-1"></div>
+                        <div class="activity-decor decor-2"></div>
+                        <div class="activity-decor decor-3"></div>
+                        <div class="activity-decor decor-4"></div>
+                    </div>
+                    <div class="goal-and-progress">
+                        <div class="goals">
+                            <div class="goals-name">
+                                <h3 class="goals-name__title">ваши цели</h3>
+                                <svg width="24" height="24" aria-hidden="true">
+                                    <use xlink:href="images/sprite.svg#icon-goal"></use>
+                                </svg>
+                            </div>
+                            <ul class="goals-list">
+                                <li class="goals-list__item">Питание: Высокобелковая диета</li>
+                                <li class="goals-list__item">Цель: Похудение</li>
+                                <li class="goals-list__item">Вес: 66кг</li>
+                                <li class="goals-list__item">Калории: 1800</li>
+                            </ul>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-name">
+                                <h3 class="progress-name__title">прогресс</h3>
+                                <svg width="24" height="24" aria-hidden="true">
+                                    <use xlink:href="images/sprite.svg#icon-progress"></use>
+                                </svg>
+                            </div>
+                            <span class="progress__note">Вы сбросили 4кг</span>
+                            <div class="progress__line"></div>
+                            <span class="progress__kg">70 КГ</span>
+                        </div>
                     </div>
                 </div>
             </div>
