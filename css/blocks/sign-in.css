@@ -6,17 +6,21 @@
 .sign-in_wrapper{
     background-color: #F2EFE9;
     width: 589px;
-    height: 537px;
+    height: auto;
     border-radius: 20px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
 }
 .sign-in__title{
     font-size: 24px;
-    padding-top: 75px;
     margin: 0; 
     text-transform: unset;
+    margin-bottom: 50px;
 }
-.sign-in__form{
-    padding: 50px 77px 32px 76px;
+
+.sign-in__form {
+    margin-bottom: 50px;
 }
 .sign-in-noacc__div{
     padding-bottom: 30px;
@@ -37,6 +41,7 @@
     font-family: "Nunito", "Arial", sans-serif;
     cursor: pointer;
     transition: transform 0.5s ease;
+    margin-top: auto;
 }
 .sign-in-noacc_text{
     font-family: "Nunito", "Arial", sans-serif;
@@ -103,26 +108,22 @@
 
     }
 }
- @media (max-width: 360px){
-    .container{
-        display: flex;
-        width: 90%;
-        align-items: center;
-    }
+ @media (max-width: 480px){
     .sign-in_wrapper{
         display: flex;
         flex-direction: column;
         align-items: center;
         width: 100%;
         border-radius: 20px;
-        height: 500px;
-        margin-left: 35px;
+        height: auto;
+        max-width: 300px;
+        padding: 20px;
+        margin: 0 auto;
     }
     .sign-in__form{
         width: 100%;
         box-sizing: border-box;
-        align-items: center;
-        padding: 20px;
+        margin-bottom: 30px;
     }
     .sign-in-phone__input{
         padding-left: 10px;
@@ -143,6 +144,7 @@
         font-size: 14px;
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
     .sign-in__btn > a{
         display: flex;
@@ -151,5 +153,9 @@
         width: 100%;
         height: 100%;
         font-size: 13px;
+    }
+
+    .sign-in__title {
+        margin-bottom: 30px;
     }
 }
