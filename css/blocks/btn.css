@@ -18,8 +18,8 @@
 
 .btn--card {
     position: absolute;
-    bottom: 30px;
-    right: 28px;
+    bottom: 6%;
+    right: 9%;
     padding: 10px 20px;
     border-radius: 10px;
     max-width: 137px;
@@ -29,6 +29,7 @@
     position: unset;
     margin: 0;
     margin-left: auto;
+    margin-top: auto;
 }
 
 .btn--food {

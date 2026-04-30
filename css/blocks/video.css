@@ -40,3 +40,38 @@
     display: block;
     font-weight: 300;
 }
+
+@media (max-width: 768px) {
+    .video {
+        padding-top: 100px;
+    }
+
+    .video__note {
+        margin-bottom: 45px;
+    }
+
+    .video__wrapper {
+        flex-wrap: wrap;
+        gap: 60px;
+    }
+
+    .video-card {
+        display: flex;
+        width: 100%;
+    }
+
+    .video-card__main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .video-card__title {
+        font-size: 26px;
+        text-transform: uppercase;
+        margin-bottom: 30px;
+    }
+
+    .video-card__text {
+        font-size: 16px;
+    }
+}

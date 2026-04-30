@@ -57,3 +57,39 @@
 .registration__btn{
     transition: transform 0.5s ease;
 }
+
+@media (max-width: 768px) {
+    .recomendations {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .recomendations__title {
+        margin-bottom: 40px;
+    }
+
+    .recomendations__note {
+        font-size: 20px;
+        margin-bottom: 35px;
+    }
+
+    .recomendations__wrapper {
+        flex-wrap: wrap;
+    }
+
+    .recomendations-card {
+        display: flex;
+        width: 100%;
+        align-items: center;
+    }
+
+    .recomendations-card__title {
+        text-transform: uppercase;
+        font-size: 24px;
+        margin-bottom: 40px;
+    }
+
+    .text {
+        font-size: 18px;
+    }
+}

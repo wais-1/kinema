@@ -30,3 +30,10 @@ h2 {
     text-align: center;
     scroll-margin-top: 140px; 
 }
+
+@media (max-width: 768px) {
+    h2 {
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+}

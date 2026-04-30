@@ -65,3 +65,29 @@
     font-size: 24px;
     font-weight: 800;
 }
+
+@media (max-width: 768px) {
+    .shedule {
+        padding-top: 100px;
+    }
+
+    .shedule__note {
+        margin-bottom: 45px;
+    }
+
+    .shedule__day {
+        font-size: 28px;
+    }
+
+    .shedule-lessons {
+        padding-right: 115px;
+    }
+
+    .shedule-inner__time {
+        font-size: 24px;
+    }
+
+    .shedule-inner__text {
+        font-size: 20px;
+    }
+}

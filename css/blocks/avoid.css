@@ -18,3 +18,18 @@
     font-size: 22px;
     color: #3E3A39;
 }
+
+@media (max-width: 768px) {
+    .avoid__text {
+        font-size: 16px;
+    }
+
+    .avoid {
+        width: 334px;
+        margin: 0 auto;
+    }
+
+    .avoid--mini {
+        width: 245px;
+    }
+}

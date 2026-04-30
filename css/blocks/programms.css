@@ -30,16 +30,16 @@
 .programms-card__days {
     position: absolute;
     font-size: 15px;
-    top: 19px;
-    left: 24px;
+    top: 4%;
+    left: 6%;
 }
 
 .programms-card__title {
     font-size: 30px;
     font-family: "Raleway", "Arial", sans-serif;
     position: absolute;
-    top: 83px;
-    right: 28px;
+    top: 24%;
+    right: 9%;
     margin: 0;
 }
 
@@ -48,7 +48,39 @@
     text-align: right;
     position: absolute;
     width: 269px;
-    top: 206px;
-    right: 28px;
+    top: 47%;
+    right: 9%;
     font-weight: 300;
+}
+
+@media (max-width: 768px) {
+    .programms {
+        padding-top: 100px;
+    }
+
+    .programms__wrapper {
+        flex-wrap: wrap;
+        gap: 60px;
+    }
+
+    .programms-card {
+        width: 100%;
+    }
+
+    .programms-card__days {
+        font-size: 16px;
+    }
+
+    .programms__note {
+        margin-bottom: 45px;
+    }
+
+    .programms-card__title {
+        font-size: 26px;
+        text-transform: uppercase;
+    }
+
+    .programms-card__text {
+        font-size: 18px;
+    }
 }
