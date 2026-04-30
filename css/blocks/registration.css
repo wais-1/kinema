@@ -71,3 +71,19 @@
 .registration-btn__link{
     color: white;
 }
+
+@media(max-width: 768px){
+    .sign-in{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sign-in__form{
+        width: 100%;
+        box-sizing: border-box;
+        align-items: center;
+
+    }
+
+}

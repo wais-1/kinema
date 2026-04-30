@@ -101,3 +101,19 @@
 .registration-cod__send:hover{
     transform: translateY(-50%) scale(1.1);
 }
+
+@media(max-width: 768px){
+    .sign-in{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sign-in__form{
+        width: 100%;
+        box-sizing: border-box;
+        align-items: center;
+
+    }
+
+}
