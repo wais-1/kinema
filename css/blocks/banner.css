@@ -19,7 +19,7 @@
 
 .banner__img {
     position: absolute;
-    top: 241px;
+    top: 31%;
     left: 50%;
     transform: translateX(-50%);
     z-index: -1;
@@ -27,58 +27,120 @@
 
 .banner__left-top {
     position: absolute;
-    top: 352px;
-    left: 290px;
+    top: 44%;
+    left: 20%;
 }
 
 .banner__top-left {
     position: absolute;
-    top: 373px;
-    left: 290px;
+    top: 47%;
+    left: 20%;
 }
 
 .banner__left-bottom {
     position: absolute;
-    top: 481px;
-    left: 80px;
+    top: 61%;
+    left: 6%;
 
 }
 
 .banner__bottom-left {
     position: absolute;
-    top: 503px;
-    left: 80px;
+    top: 64%;
+    left: 6%;
 }
 
 .banner__right-top {
     position: absolute;
-    top: 336px;
-    right: 280px;
+    top: 42%;
+    right: 19%;
 }
 
 .banner__top-right {
     position: absolute;
-    top: 357px;
-    right: 280px;
+    top: 45%;
+    right: 19%;
 }
 
 .banner__right-bottom {
     position: absolute;
-    top: 414px;
-    right: 155px;
+    top: 52%;
+    right: 11%;
 }
 
 .banner__bottom-right {
     position: absolute;
-    top: 436px;
-    right: 150px;
+    top: 55%;
+    right: 11%;
 }
 
-/* @keyframes slide-out {
-    0% {
-        clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
+@media (max-width: 768px) {
+
+    .banner {
+        padding-top: 120px;
     }
-    100% {
-        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+
+    .banner__title {
+        font-size: 100px;
+        margin-bottom: 329px;
+        letter-spacing: 0.15em;
+
     }
-} */
+
+    .banner__img {
+        width: 768px;
+        height: 400px;
+        top: 32%;
+    }
+
+    .banner__left-top {
+        font-size: 14px;
+        top: 39%;
+        left: 8%;
+    }
+
+    .banner__top-left {
+        width: 240px;
+        height: 28px;
+        top: 42%;
+        left: 7%;
+    }
+
+    .banner__left-bottom {
+        font-size: 14px;
+        top: 61%;
+        left: 13%;
+    }
+
+    .banner__bottom-left {
+        width: 201px;
+        height: 28px;
+        top: 64%;
+        left: 10%;
+    }
+
+    .banner__right-top {
+        font-size: 14px;
+        top: 41%;
+        right: 2%;
+    }
+
+    .banner__top-right {
+        width: 220px;
+        top: 44%;
+        right: 2%;
+    }
+
+    .banner__right-bottom {
+        font-size: 14px;
+        top: 53%;
+        right: 34%;
+    }
+
+    .banner__bottom-right {
+        width: 203px;
+        height: 20px;
+        top: 56%;
+        right: 32%;
+    }
+}
