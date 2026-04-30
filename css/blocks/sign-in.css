@@ -90,19 +90,66 @@
 .sign-in-noacc_link:hover{
     text-shadow: 0 0 0.5px currentColor, 0 0 0.5px currentColor;
 }
-
 @media(max-width: 768px){
     .sign-in{
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-
     .sign-in__form{
         width: 100%;
         box-sizing: border-box;
         align-items: center;
 
     }
-
+}
+ @media (max-width: 360px){
+    .container{
+        display: flex;
+        width: 90%;
+        align-items: center;
+    }
+    .sign-in_wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        border-radius: 20px;
+        height: 500px;
+        margin-left: 35px;
+    }
+    .sign-in__form{
+        width: 100%;
+        box-sizing: border-box;
+        align-items: center;
+        padding: 20px;
+    }
+    .sign-in-phone__input{
+        padding-left: 10px;
+        font-size: 14px;
+        height: 30px;
+    }
+    .sign-in-password__input{
+        padding-left: 10px;
+        font-size: 14px;
+        height: 30px;
+    }
+    .sign-in__btn {
+        width: 150px;
+        height: 42px;
+    }
+    .sign-in-noacc__div{
+        gap: 8px;
+        font-size: 14px;
+        display: flex;
+        flex-direction: column;
+    }
+    .sign-in__btn > a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        font-size: 13px;
+    }
 }
