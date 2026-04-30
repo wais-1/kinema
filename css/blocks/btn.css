@@ -39,3 +39,12 @@
     align-items: center;
     padding: 10px 19px;
 }
+
+@media (max-width: 375px) {
+    .btn {
+        font-size: 14px;
+        padding: 15px 20px;
+        display: flex;
+        justify-content: center;
+    }
+}
