@@ -91,3 +91,39 @@
         font-size: 20px;
     }
 }
+
+@media (max-width: 480px) {
+
+.shedule {
+    padding-top: 60px;
+}
+
+    .shedule__day {
+        padding: 28px 25px;
+    }
+
+    .shedule-lessons {
+        padding: 0 41px 0 20px;
+    }
+
+    .shedule-inner__time {
+        font-size: 16px;
+    }
+
+    .shedule-inner__text {
+        font-size: 13px;
+    }
+
+    .shedule-inner {
+        padding-bottom: 6px;
+        margin-bottom: 6px;
+    }
+
+    .shedule__wrapper {
+        padding: 10px 0;
+    }
+
+    .shedule-main {
+        gap: 25px;
+    }
+}

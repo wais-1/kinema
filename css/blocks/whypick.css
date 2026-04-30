@@ -77,3 +77,19 @@
     }
 }
 
+@media (max-width: 480px) {
+
+    .whypick {
+        margin-bottom: 60px;
+    }
+
+    .whypick__title {
+        margin-bottom: 25px;
+        font-size: 24px;
+    }
+
+    .whypick__wrapper {
+        gap: 25px;
+    }
+}
+

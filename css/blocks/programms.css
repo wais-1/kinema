@@ -84,3 +84,13 @@
         font-size: 18px;
     }
 }
+
+@media (max-width: 480px) {
+    .programms {
+        padding-top: 60px;
+    }
+
+    .programms__wrapper {
+        gap: 25px;
+    }
+}

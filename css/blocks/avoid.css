@@ -33,3 +33,17 @@
         width: 245px;
     }
 }
+
+@media (max-width: 480px) {
+    .avoid {
+        width: 294px;
+    }
+
+    .avoid__text {
+        font-size: 13px;
+    }
+
+    .avoid--mini {
+        width: 202px;
+    }
+}

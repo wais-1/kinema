@@ -25,6 +25,10 @@
     z-index: -1;
 }
 
+.banner__img-phone {
+    display: none;
+}
+
 .banner__left-top {
     position: absolute;
     top: 44%;
@@ -142,5 +146,63 @@
         height: 20px;
         top: 56%;
         right: 32%;
+    }
+}
+
+@media (max-width: 480px) {
+    .banner {
+        padding-top: 90px;
+    }    
+    
+    .banner__img {
+        display: none;
+    }
+
+    .banner__title {
+        font-size: 60px;
+    }
+
+    .banner__top-left {
+        display: none;
+    }
+
+    .banner__bottom-left {
+        display: none;
+    }
+
+    .banner__top-right {
+        display: none;
+    }
+
+    .banner__bottom-right {
+        display: none;
+    }
+
+    .banner__img-phone {
+        display: block;
+        position: absolute;
+        top: 78px;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: auto;
+        max-width: 360px;
+        margin: 0 auto;
+    }
+    
+    .banner__left-top {
+        display: none;
+    }
+
+    .banner__left-bottom {
+        display: none;
+    }
+
+    .banner__right-top {
+        display: none;
+    }
+
+    .banner__right-bottom {
+        display: none;
     }
 }
