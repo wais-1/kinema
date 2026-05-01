@@ -13,8 +13,10 @@
         <div class="container">
             <div class="header__wrapper">
                 <picture>
-                    <img src="images/header-logo.png" srcset="images/header-logo@2x.png 2x" width="151" height="56"
-                        alt="логотип компании">
+                    <img class="header__logo-big" src="images/header-logo.png" srcset="images/header-logo@2x.png 2x"
+                        width="151" height="56" alt="логотип компании">
+                    <img class="header__logo-mini" src="images/header-logo-mini.png"
+                        srcset="images/header-logo-mini@2x.png 2x" width="24" height="56" alt="логотип компании">
                 </picture>
                 <nav class="header-nav">
                     <ul class="nav-list">
@@ -41,25 +43,21 @@
             </div>
         </div>
     </header>
-    <section class="registration">
+    <section class="sign-in">
         <div class="container">
-            <div class="registration_wrapper">
-                <h2 class="registration__title">Регистрация</h2>
-                <form action="" class="registration__form">
-                    <label for="registration-pass__input" class="registration-pass__text">Пароль</label>
-                    <br>
-                    <input class="registration-pass__input" id="registration-pass__input" type="password" placeholder="Придумайте пароль">
-                    <br>
-                    <label for="registration-pass-again__input" class="registration-pass-again__text">Повторите
-                        пароль</label>
-                    <br>
-                    <input class="registration-pass-again__input" id="registration-pass-again__input" type="password" placeholder="Введите пароль еще раз">
+            <div class="sign-in__wrapper">
+                <h3 class="sign-in__title">Регистрация</h3>
+                <form action="#" method="post" class="sign-in__form">
+                    <div class="custom-input">
+                        <input type="text" class="custom-input__field" id="text-phone" placeholder="Придумайте пароль">
+                        <label for="text-phone" class="custom-input__label">Пароль</label>
+                    </div>
+                    <div class="custom-input">
+                        <input type="password" class="custom-input__field" placeholder="Введите пароль еще раз" id="text-code">
+                        <label for="text-code" class="custom-input__label">Повторите пароль</label>
+                    </div>
                 </form>
-                <br>
-                <div class="registration-div__btn">
-                    <button class="registration__btn"><a href="account.html"
-                            class="registration-btn__link">Зарегистрироваться</a></button>
-                </div>
+                <a href="account.html" class="sign-in__link">Зарегестрироваться</a>
             </div>
         </div>
     </section>
