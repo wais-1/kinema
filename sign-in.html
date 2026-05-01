@@ -45,24 +45,23 @@
     </header>
     <section class="sign-in">
         <div class="container">
-            <div class="sign-in_wrapper">
-                <h2 class="sign-in__title">Вход</h2>
-                <form action="" class="sign-in__form">
-                    <label for="sign-in-phone__input" class="sign-in-phone__text"> Телефон</label>
-                    <input class="sign-in-phone__input" id="sign-in-phone__input" type="text"
-                        placeholder="+7 (XXX) XXX XX XX">
-                    <label for="sign-in-password__input" class="sign-in-password__text">Пароль</label>
-                    <input class="sign-in-password__input" id="sign-in-password__input" type="password"
-                        placeholder="Введите пароль">
+            <div class="sign-in__wrapper">
+                <h3 class="sign-in__title">Вход</h3>
+                <form action="#" method="post" class="sign-in__form">
+                    <div class="custom-input">
+                        <input type="text" class="custom-input__field" id="text-phone" placeholder="+7 (XXX) XXX XX XX">
+                        <label for="text-phone" class="custom-input__label">Телефон</label>
+                    </div>
+                    <div class="custom-input">
+                        <input type="password" class="custom-input__field" placeholder="Введите пароль" id="text-code">
+                        <label for="text-code" class="custom-input__label">Пароль</label>
+                    </div>
                 </form>
-                <div class="sign-in-noacc__div">
-                    <span class="sign-in-noacc_text">Ещё нет аккаунта?</span>
-                    <a href="registration-cod.html" class="sign-in-noacc_link">Зарегистрироваться</a>
+                <div class="sign-in__noacc">
+                    <span class="sign-in__question">Еще нет аккаунта?</span>
+                    <a href="registration-cod.html" class="sign-in__reg">Зарегестрироваться</a>
                 </div>
-                <div class="sign-in-div__btn">
-                    <button class="sign-in__btn"><a href="account.html" class="sign-in-btn__link">Войти в
-                            аккаунт</a></button>
-                </div>
+                <a href="registration.html" class="sign-in__link">Войти в аккаунт</a>
             </div>
         </div>
     </section>

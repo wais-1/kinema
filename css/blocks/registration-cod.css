@@ -98,4 +98,8 @@
         font-size: 12px;
         right: 2%;
     }
+
+    .registration-cod__link {
+        font-size: 14px;
+    }
 }
