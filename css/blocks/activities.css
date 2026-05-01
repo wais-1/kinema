@@ -5,4 +5,12 @@
 .activities__wrapper {
     display: flex;
     gap: 86px;
+    margin-bottom: 80px;
+}
+
+@media (max-width: 768px) {
+    .activities__wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
 }

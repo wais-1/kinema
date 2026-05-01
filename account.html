@@ -13,8 +13,10 @@
         <div class="container">
             <div class="header__wrapper">
                 <picture>
-                    <img src="images/header-logo.png" srcset="images/header-logo@2x.png 2x" width="151" height="56"
-                        alt="логотип компании">
+                    <img class="header__logo-big" src="images/header-logo.png" srcset="images/header-logo@2x.png 2x"
+                        width="151" height="56" alt="логотип компании">
+                    <img class="header__logo-mini" src="images/header-logo-mini.png"
+                        srcset="images/header-logo-mini@2x.png 2x" width="24" height="56" alt="логотип компании">
                 </picture>
                 <nav class="header-nav">
                     <ul class="nav-list">
@@ -28,7 +30,7 @@
                             <a href="#shedule" class="nav-list__link">План</a>
                         </li>
                         <li class="nav-list__item">
-                            <a href="main.html" class="nav-list__link">Главная</a>
+                            <a href="index.html" class="nav-list__link">Главная</a>
                         </li>
                     </ul>
                 </nav>
@@ -136,6 +138,32 @@
                 </div>
             </div>
         </section>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__wrapper">
+                    <span class="footer__ip">ИП Лукашевич Р. И.</span>
+                    <span class="footer__text">Контакты:</span>
+                    <div class="footer-contacts">
+                        <svg width="24" height="24" aria-hidden="true">
+                            <use xlink:href="images/sprite.svg#icon-phone"></use>
+                        </svg>
+                        <a href="tel:+79220815715" class="footer-contacts__link">+7 (922) 081 57 15</a>
+                    </div>
+                    <div class="footer-contacts">
+                        <svg width="24" height="24" aria-hidden="true">
+                            <use xlink:href="images/sprite.svg#icon-email"></use>
+                        </svg>
+                        <a href="mailto:sokolova@mail.ru" class="footer-contacts__link">sokolova@mail.ru</a>
+                    </div>
+                </div>
+                <div class="footer-location">
+                    <svg width="24" height="24" aria-hidden="true">
+                        <use xlink:href="images/sprite.svg#icon-location"></use>
+                    </svg>
+                    <span class="footer-location__text">Первомайская, 100, г. Сыктывкар</span>
+                </div>
+            </div>
+        </footer>
     </main>
 </body>
 

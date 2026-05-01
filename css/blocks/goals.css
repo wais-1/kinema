@@ -37,3 +37,13 @@
     left: 0;
     top: 7px;
 }
+
+@media (max-width: 768px) {
+    .goals {
+        margin: 0 auto;
+    }
+
+    .goals-name {
+        justify-content: center;
+    }
+}

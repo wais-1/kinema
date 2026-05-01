@@ -15,3 +15,13 @@
     gap: 20px;
     align-items: center;
 }
+
+@media (max-width: 480px) {
+    .account-main {
+        padding: 120px 0 0;
+    }
+
+    .account-main__wrapper {
+        margin-bottom: 50px;
+    }
+}

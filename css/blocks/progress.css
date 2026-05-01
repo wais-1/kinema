@@ -35,7 +35,7 @@
 .progress__line {
     position: absolute;
     background-color: #E5C5B5;
-    width: 375px;
+    width: 80%;
     height: 8px;
     border-radius: 50px;
     top: 135px;
@@ -60,4 +60,17 @@
     left: 50%;
     transform: translateX(-50%);
     text-transform: uppercase;
+}
+
+@media (max-width: 480px) {
+    .progress {
+        width: 300px;
+    }
+
+    .progress__line::before {
+        left: 90px;
+        width: 18px;
+        height: 18px;
+        top: -5px;
+    }
 }

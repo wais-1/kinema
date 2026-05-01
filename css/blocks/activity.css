@@ -126,3 +126,59 @@
     height: 121px;
     left: 265px;
 }
+
+@media (max-width : 480px) {
+    .activity-hours__num {
+        font-size: 12px;
+    }
+
+    .activity-days__name {
+        font-size: 12px;
+    }
+
+    .activity-lines {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .activity-lines__icon {
+        width: 248px;
+    }
+
+    .activity-time {
+        gap: 50px;
+    }
+
+    .activity-time__text {
+        font-size: 12px;
+    }
+
+    .activity-hours {
+        gap: 30px;
+        right: 9px;
+    }
+
+    .activity-days {
+        gap: 22px;
+    }
+
+    .decor-2 {
+        left: 111px;
+    }
+
+    .decor-3 {
+        left: 148px;
+    }
+
+    .decor-4 {
+        left: 222px;
+    }
+
+    .middle::before {
+        left: -25px;
+    }
+
+    .middle::after {
+        right: -25px;
+    }
+}
