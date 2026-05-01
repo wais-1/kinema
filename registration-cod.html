@@ -13,8 +13,10 @@
         <div class="container">
             <div class="header__wrapper">
                 <picture>
-                    <img src="images/header-logo.png" srcset="images/header-logo@2x.png 2x" width="151" height="56"
-                        alt="логотип компании">
+                    <img class="header__logo-big" src="images/header-logo.png" srcset="images/header-logo@2x.png 2x"
+                        width="151" height="56" alt="логотип компании">
+                    <img class="header__logo-mini" src="images/header-logo-mini.png"
+                        srcset="images/header-logo-mini@2x.png 2x" width="24" height="56" alt="логотип компании">
                 </picture>
                 <nav class="header-nav">
                     <ul class="nav-list">
@@ -43,21 +45,20 @@
     </header>
     <section class="registration-cod">
         <div class="container">
-            <div class="registration-cod_wrapper">
-                <h2 class="registration-cod__title">Регистрация</h2>
-                <form action="" class="registration-cod__form">
-                    <label for="registration-cod-phone__input" class="registration-cod-phone__text">Телефон</label>
+            <div class="registration-cod__wrapper">
+                <h3 class="registration-cod__title">Регистрация</h3>
+                <form action="#" method="post" class="registration-cod__form">
                     <div class="custom-input">
-                        <input class="registration-cod-phone__input" id="registration-cod-phone__input" type="text" placeholder="+7 (XXX) XXX XX XX">
-                        <button class="registration-cod__send" type="button">Отправить код</button>
+                        <input type="text" class="custom-input__field" id="text-phone" placeholder="+7 (XXX) XXX XX XX">
+                        <label for="text-phone" class="custom-input__label">Телефон</label>
+                        <button class="custom-input__send">Отправить код</button>
                     </div>
-                    <label for="registration-cod__input" class="registration-cod__text">Код из SMS</label>
-                    <input class="registration-cod__input" id="registration-cod__input" type="text" placeholder="Введите код из SMS">
+                    <div class="custom-input">
+                        <input type="text" class="custom-input__field" placeholder="Введите код из SMS" id="text-code">
+                        <label for="text-code" class="custom-input__label">Код из SMS</label>
+                    </div>
                 </form>
-                <div class="registration-cod-div__btn">
-                    <button class="registration-cod__btn"><a href="registration.html"
-                            class="registration-cod-btn__link">Далее</a></button>
-                </div>
+                <a href="registration.html" class="registration-cod__link">Далее</a>
             </div>
         </div>
     </section>

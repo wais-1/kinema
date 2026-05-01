@@ -1,195 +1,101 @@
-.registration-cod{
-    padding-top: 147px;
-    display: flex;
-    justify-content: center;
+.registration-cod {
+    padding-top: 151px;
+    font-family: "Nunito", "Arial", sans-serif;
 }
-.registration-cod_wrapper{
+
+.registration-cod__wrapper {
     background-color: #F2EFE9;
-    width: 589px;
-    height: 537px;
+    padding: 74px 77px;
     border-radius: 20px;
+    width: 589px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
 }
-.registration-cod__title{
+
+.registration-cod__title {
+    margin: 0 0 67px;
+    font-family: "Raleway", "Arial", sans-serif;
     font-size: 24px;
-    padding-top: 75px;
-    margin: 0; 
-    text-transform: unset;
-}
-.registration-cod__form{
-    padding: 50px 77px 32px 76px;
 }
 
-.registration-cod__btn{
-    width: 90px;
-    height: 42px;
-    padding: 0 20px 0 20px;
-    border-radius: 10px;
-    border: 0;
-    color: white;
-    background-color: #B8C6B0;
-    font-size: 16px;
-    font-family: "Nunito", "Arial", sans-serif;
-    cursor: pointer;
-    transition: transform 0.5s ease;
-}
-
-.registration-cod-phone__text{
-    font-family: "Nunito", "Arial", sans-serif;
-    font-size: 14px;
-    padding-bottom: 7px;
-    display: inline-block;
-}
-.registration-cod__text{
-    font-family: "Nunito", "Arial", sans-serif;
-    font-size: 14px;
-    display: inline-block;
-    padding-top: 26px;
-    padding-bottom: 7px;
-}
-.registration-cod-phone__input{
-    width: 92%;
-    height: 57px;
-    border-radius: 10px;
-    color: #AAA0A0;
-    border: 2px solid #E5C5B5;
-    background-color: #F2EFE9;
-    padding-left: 29px;
-}
-.registration-cod__input{
-    width: 92%;
-    height: 57px;
-    border-radius: 10px;
-    color: #AAA0A0;
-    border: 2px solid #E5C5B5;
-    background-color: #F2EFE9;
-    padding-left: 29px;
+.registration-cod__form {
+    display: flex;
+    flex-direction: column;
+    gap: 52px;
+    width: 100%;
+    margin-bottom: 60px;
 }
 
 .custom-input {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-}
-.input-wrapper {
     position: relative;
+}
+
+.custom-input__field {
+    background-color: unset;
+    border: 2px solid #E5C5B5;
+    padding: 19px 29px;
+    border-radius: 10px;
     width: 100%;
 }
 
-.registration-cod__send {
-    padding: 5px 15px;
+.custom-input__label {
+    font-size: 14px;
+    position: absolute;
+    top: -26px;
+    left: 0;
+}
+
+.custom-input__send {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 6%;
+    border-radius: 10px;
     border: none;
     background-color: #B8C6B0;
+    padding: 5px 10px;
     color: #FFFFFF;
-    font-size: 16px;
-    font-family: "Nunito", "Arial", sans-serif;
+}
+
+.registration-cod__link {
     border-radius: 10px;
-    position: absolute;
-    top: 47.7%;
-    transform: translateY(-50%);
-    right: 32px; /* Отступ от правого края поля */
-    transition: transform 0.5s ease;
-    cursor: pointer;
-    white-space: nowrap;
-    height: 40px;
-    margin-right: 490px;
+    background-color: #B8C6B0;
+    padding: 10px 20px;
+    color: #FFFFFF;
 }
-.registration-cod-div__btn{
-    padding-left: 0;
-    display: flex;
-    justify-content: center;
-}
-.registration-cod-btn__link{
-    color: white;
-}
-.registration-cod__btn:hover{
-    transform: scale(1.1);
-}
-.registration-cod__send:hover {
-    transform: translateY(-50%) scale(1.05);
-}
-@media(max-width: 768px){
-    .registration-cod{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
 
-    .registration-cod__form{
-        width: 100%;
-        box-sizing: border-box;
-        align-items: center;
-
-    }
-    .registration-cod__send {
-        padding: 5px 15px;
-        border: none;
-        background-color: #B8C6B0;
-        color: #FFFFFF;
-        font-size: 16px;
-        font-family: "Nunito", "Arial", sans-serif;
-        border-radius: 10px;
-        position: absolute;
-        top: 54%;
-        transform: translateY(-50%);
-        right: 32px; /* Отступ от правого края поля */
-        transition: transform 0.5s ease;
-        cursor: pointer;
-        white-space: nowrap;
-        height: 40px;
-        margin-right: 150px;
-    }
-}
-@media (max-width: 360px) {
-    .container{
-        display: flex;
-        width: 90%;
-        align-items: center;
-    }
-    .registration-cod_wrapper {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-        border-radius: 20px;
-        height: 450px;
-        margin-left: 35px;
-    }
-    .registration-cod__form {
-        width: 100%;
-        box-sizing: border-box;
-        align-items: center;
+@media (max-width: 480px) {
+    .registration-cod__wrapper {
+        width: 300px;
         padding: 20px;
     }
-    .registration-cod-phone__input{
-        padding-left: 10px;
-        font-size: 14px;
-        height: 30px;
+
+    .registration-cod__form {
+        gap: 35px;
+        margin-bottom: 30px;
     }
-    .registration-cod__input {
-        padding-left: 10px;
-        font-size: 14px;
-        height: 30px;
+
+    .registration-cod__title {
+        font-size: 20px;
+        margin-bottom: 50px;
     }
-    .registration-cod__send {
-        margin-top: 25px;
-        margin-right: 10px;
-        padding: 0px 10px;
+
+    .custom-input__label {
         font-size: 12px;
-        height: 26px;
-        top: 49%;
+        top: -18px;
     }
-    .registration-cod__btn {
-        margin-top: 30px;
-        width: 100px;
-        height: 42px;
+    .custom-input__field {
+        padding: 12px 20px;
     }
-    .registration-cod__btn > a {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-        height: 100%;
-        font-size: 13px;
+
+    .custom-input__field::placeholder {
+        font-size: 12px;
+    }
+
+    .custom-input__send {
+        font-size: 12px;
+        right: 2%;
     }
 }
-
